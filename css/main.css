@@ -1,19 +1,31 @@
-.border{
-  border: 1px solid black;
+/* GLOBAL STYLES */
+a {
+  color: red;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* SOCIAL STYLES */
+.social-link {
+  background: rgba(150, 150, 150, 0.5);
+  color: blue;
+}
+
+/* BIO STYLES */
+.bio-wrapper {
+  /* width: 500px; */
 }
 
 .bio-box {
   border: 1px solid black;
+  font-size: 150%;
+  margin: 10%;
+  width: 50%;
 }
 
-.bio-box a {
-        color: green;
-      }
-
-.link-red{
-  color: purple;
-}
-
-.link-green{
+.bio-copy a {
   color: green;
+  font-size: 150%;
 }
